@@ -1,0 +1,537 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color:#fff;
+    color:#000;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header h2 {
+    text-align: center;
+  }
+  .hero-image {
+    padding:1em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../eating-feeds/img/showcase-biting.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+    
+    .hero-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    }
+#header{
+
+    top: 0; 
+    width: 100%;
+    display: grid;
+    background-color: #FBF5ED;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5em;
+  }
+  @media screen and (max-width:800px)
+  {
+    .social{
+        display: none;
+         
+      }
+      .hero-text {
+        text-align: center;
+        position: relative;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        }
+    #header{
+        top: 0; 
+        display: grid;
+        background-color: #FBF5ED;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto; 
+      }
+      .social{
+          height: 50px;
+        margin-left:auto ;
+        margin-right:auto ;
+         
+      }
+      #logo{
+        margin-left:auto ;
+        margin-right:auto ;
+    }
+    .fab{
+
+        font-size: 20px;
+    }
+  } 
+  .content p{
+      padding: 0.5em;
+      font-size: 20px;
+  }
+.fab, .fas{
+    padding-left:1em;
+    text-decoration:none;
+    color:#262626;
+}
+.fab:hover{
+    color:#259bd6;
+}
+.fe1:hover{
+    color:red;
+}
+.fe2:hover{
+  color:#2861a0;
+}
+.fe3:hover{
+  color:#259bd6;
+}
+.fe4:hover{
+  color:red;
+}
+.fe5:hover{
+  color:cyan
+}
+.logo{
+    padding-left:3em; 
+    height: 60px;
+}
+/* Menus */
+nav{
+    position: relative;
+    width: 100%;
+    padding: 0 100px;
+    background-color:#fff;
+    box-sizing: border-box;
+}
+nav ul{
+     position: relative;
+     margin: 0;
+     padding: 0;
+     float: left;
+ }
+nav ul li{
+    list-style: none;
+    display:inline-block;
+}
+nav ul li a{
+    display: block;
+    color:#000;
+    text-decoration:none;
+    padding:20px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background-color:#259bd6;
+    color:#262626;
+
+}
+.toggle{
+    width:100%;
+    
+    padding:20px;
+    box-sizing:border-box;
+    text-align: center;
+    display: none;
+}
+.toggle span{
+    color:#262626;
+    
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media (max-width:2000px)
+{
+    
+      #logo{
+        margin-left:auto ;
+        margin-right:auto ;
+    }
+    .toggle{
+        margin-left:auto ;
+        margin-right:auto;
+        background-color:#FBF5ED;
+        display: block;
+    }
+    nav{
+        padding: 0;
+    }
+    nav ul{
+        float:none;
+        text-align: center;
+        display: none;
+    }
+    nav ul.active{
+        display: block;
+    }
+    nav ul li:hover{
+        background-color: #259bd6;
+    }
+    nav ul li{
+        display:block;
+        background-color: #000;
+    }
+    nav ul li a{
+        color:white;
+    }
+}
+
+
+
+
+/* the second part after showcase*/
+#griding{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    grid-template-rows: 120px;
+    margin:2em;
+}
+
+.large-menu1{
+    background-image: url("../showcase-image/adult-casual-couple-1044488.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.8;
+    color:white;
+    font-size:120%;
+    box-shadow: rgb(0, 113, 188);
+    cursor: pointer;
+}
+.large-menu2{
+    background-image: url("../showcase-image/adult-beauty-close-up-925288.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.8;
+    color:white;
+    font-size:120%;
+    box-shadow: rgb(0, 113, 188);
+    cursor: pointer;
+}
+.middle-text,.middle-text a{
+    text-decoration: none;
+    color:#fff;
+    background-color: #262626;
+    font-size:150%;
+    position: relative;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.large-menu3{
+    background-image: url("../showcase-image/adult-beautiful-business-attire-2422280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.8;
+    color:white;
+    font-size:120%;
+    box-shadow: rgb(0, 113, 188);
+    cursor: pointer;
+}
+/* the third part after menu2*/
+#trend-ones{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1em;
+    grid-template-rows: 300px;
+}
+.rimwe a{
+color:#262626;
+text-decoration:none;
+font-size: 20px;
+padding-top:2em;
+}
+#trend-ones a:hover{
+    color:#259bd6;
+    text-decoration:none;
+}
+#update1{
+    background-color: #fff;
+
+}
+#update2{
+    background-color:#fff;
+    text-decoration: none;
+}
+h4{
+    text-decoration: none;
+}
+
+/* the forth part after trends option*/
+
+.image{
+    width:42%;
+    height: 200px;
+    float:left;
+}
+.img{
+    width:100%;
+    max-width: 320px;
+    height: 200px;
+    border-radius:2px;
+}
+.paragraph{
+    width:57%;
+    height: 200px;
+    float:right;
+}
+.paragraph p{
+    padding:0px;
+    width:100%;
+    font-size:100%;
+    height:200px;
+    text-align:left;
+}
+h4{
+    color:black;
+    font-size:14px;
+}
+.paragraph:hover{
+    color:#259bd6;
+    text-decoration: underline;
+}
+
+#all1{
+    width:33%;
+    height: auto;
+    background-color:#fff;
+    overflow:hidden;
+}
+#all2{
+    width:33%;
+    height: auto;
+    background-color:#fff;
+    overflow:hidden;
+}
+#all3{
+    width:33%;
+    height: auto;
+    background-color:#fff;
+    overflow:hidden;
+}
+.allmagedescription{
+    width:100%;
+    max-width: 100%;
+}
+.decription{
+    width: 100%;
+    height: 20%;
+    font-size:20px;
+    text-align:center;
+}
+h6{
+    text-decoration: overline;
+}
+.inline{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto;
+    padding-left: 2em;
+    padding-top: 2em;
+
+}
+#all1{
+    padding: 1em;
+    width:80%;
+    grid-column: 1;
+    grid-row: 1;
+    border-radius:10px;
+}
+#all2{
+    padding: 1em;
+    width:80%;
+    grid-column:2;
+    grid-row:1;
+    border-radius:10px;
+}
+#all3{
+    padding: 1em;
+    width:80%;
+    grid-column: 3;
+    grid-row:1;
+    border-radius:10px;
+}
+#all3:hover{
+    background-color:rgb(209, 209, 226);
+}
+#all3 a:hover{
+    color:#000;
+
+}
+#all2:hover{
+    background-color:rgb(209, 209, 226);
+}
+#all2 a:hover{
+    color:#000;
+}
+#all1:hover{
+    background-color:rgb(209, 209, 226)
+}
+#all1 a:hover{
+    color:#000;
+}
+
+#all1 a, #all2 a, #all3 a{
+    text-decoration:none;
+    border-bottom: 2px solid#259bd6;
+}
+.inline a:hover{
+    border-bottom: #259bd6;
+}
+
+@media screen and (max-width:800px) {
+	.inline{
+		grid-template-columns: 1fr;
+	}
+	#all1{
+
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+#all2{
+
+    grid-column:1 / 4;
+    grid-row:2;
+}
+#all3{
+    grid-column: 1 / 4;
+    grid-row:3;
+}
+}
+
+/* The footer part and is the last part*/
+
+#last-part{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-gap:2px;
+    background-color: #FBF5ED;
+    height: 410px;
+}
+.logofooter{
+background-color: #FBF5ED;
+padding: 1em;
+display: grid;
+grid-template-columns: 1fr 2fr;
+}
+@media screen and (max-width:800px){
+    .logofooter{
+        grid-template-columns: 1fr;
+        grid-gap: 0.5em;
+        grid-template-rows: auto auto;
+        }  
+    .logofooter .fab{
+            margin-left: auto;
+            margin-right: auto;
+        } 
+        #last-part{
+            height: 400px;
+        }
+        .sociall{
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
+.menusofooter{
+    padding-top:2em;
+    padding-left:2em; 
+    display:grid;
+    background-color: #424242;
+    grid-template-columns: 2fr 2fr 2fr;
+    color:#eee;
+    grid-gap: 1em;
+}
+@media screen and (max-width:800px){
+    .menusofooter{
+        grid-template-columns: 1fr;
+        grid-gap: 0.5em;
+        grid-template-rows: auto auto auto;
+        
+    }
+    .fitness a{
+        display: block;
+        color:white;
+        font-size:18px;
+        text-decoration: none;
+        padding:10px;
+    }
+    .eating a{
+        display: block;
+        color:white;
+        font-size:18px;
+        text-decoration: none;
+        padding:10px;
+    }
+    .fashion a{
+        display: block;
+        color:white;
+        font-size:18px;
+        text-decoration: none;
+        padding:10px;
+    }
+    .copyright{
+        padding-top:1.4em;
+        display: block;
+        color:white;
+        font-size:18px;
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.copyright{
+background-color:#424242;
+}
+.fotlogo{
+    height: 70px;
+    padding-left:2px;
+}
+.fitness a{
+    display: block;
+    color:white;
+    font-size:18px;
+    text-decoration: none;
+    padding:10px;
+}
+.eating a{
+    display: block;
+    color:white;
+    font-size:18px;
+    text-decoration: none;
+    padding:10px;
+}
+.fashion a{
+    display: block;
+    color:white;
+    font-size:18px;
+    text-decoration: none;
+    padding:10px;
+}
+.copyright a, h2{
+    padding-top:0.5em;
+    display: inline-block;
+    color:white;
+    font-size:18px;
+    text-decoration: none;
+    padding-left:6em;
+}
+
+/*respo
