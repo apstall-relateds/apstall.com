@@ -567,4 +567,9 @@ background-color:#424242;
     padding-left:6em;
 }
 
-/*respo
+/*respo*/
+.amazon-banner{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background-color:black;
+}
